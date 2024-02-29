@@ -1,4 +1,7 @@
+./otrosProgramas/Programa2.java
 ./otrosProgramas/Programa.java
 ./miPrincipal/Principal.java
+./miPrincipal/Suerte.java
+./miPrincipal/Laluna.java
 ./miPrincipal/Programa.java
 ./miTest/AppTest.java
