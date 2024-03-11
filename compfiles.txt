@@ -1,7 +1,15 @@
 ./otrosProgramas/Programa2.java
 ./otrosProgramas/Programa.java
+./miPrincipal/Panel.java
+./miPrincipal/DemoScanner.java
+./miPrincipal/DemoConversionTipo.java
+./miPrincipal/DemoOperadores.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Suerte.java
+./miPrincipal/Potencia.java
 ./miPrincipal/Laluna.java
+./miPrincipal/Calor.java
+./miPrincipal/DemoEntrada.java
+./miPrincipal/Frigo.java
 ./miPrincipal/Programa.java
 ./miTest/AppTest.java
