@@ -1,23 +1,27 @@
 package expresion;
-
 import java.util.Scanner;
-public class Expresion; 
-/**
- * @param args
- */
-public static void main(String[] args) {
+public class Expresion{
+    public  void calcularExpresion(){
+        /*Proposito:Dado los enteros a y b, calcula y escribe
+            el resultado de la expresion (a+b)^2/3b
+        Autor: Lourdes Armenta
+        Fecha: 14/feb/2024
+        */
+        //definir objeto Scanner
+        Scanner teclado = new Scanner(System.in);
 
-    Scanner teclado = new Scanner(System.in);
-float r;
-int a,b;
-((Object) System.out).Print("Proporciona valor de a: ");
-a = teclado.nextInt();
-System.out.print("Proporciona el valor de b: ");
-b = teclado.nextInt();
-r = (float)Math.pow(a+b, r),2/(3*b);
-//r = (a+b)(a+b)/(3*b);
-System.out.print("Resultado = "+r);
-teclado.close();
-
- }
+        //Definir variable de salida
+        float r;
+        //Definir variable de entrada
+        int a,b;
+        System.out.print("Proporciona valor de a:");
+        a = teclado.nextInt();
+        System.out.print("Proporciona valor de b:");
+        b = teclado.nextInt();
+        //r = (a+b)*(a+b)/(3*b); 
+        r = (float)Math.pow((a+b),2)/(3*b);
+        System.out.println("Resultado = "+r);
+        teclado.close();
+    }
+    
 }

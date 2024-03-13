@@ -1,20 +1,31 @@
 package miPrincipal;
-//Declaraciones import
-import otrosProgramas.*; //Esta sentencia importa todas las clases del paquete a otrosProgramas
+//Declariones import
+import otrosProgramas.*; //Esta sentencia importa todas las clases
+                         //del paquete otrosProgramas
+import java.util.Scanner;
 public class Programa {
-    
     public static void main(String[] args) {
+        //Este es un comentario
+        /*
+         * Este es otro comentario
+         * colocado en varias lineas
+         */
         obtenerDatos();
-        alfabetizar();       
-        verpalabras();                               
+        alfabetizar();
+        verpalabras();
+        verpalabras();
+        verpalabras();
     }
     public static void obtenerDatos(){
         System.out.println("Estoy en la función obtener datos");
     }
     public static void alfabetizar(){
-        System.out.println("Estoy en la función alfabetizar");
-}
+        System.out.println("Estoy en la funcion alfabetizar");
+    }
     public static void verpalabras(){
-    System.out.println("Estoy en la función ver palabras");
-}
+        System.out.println("Estoy en la funcion ver palabras");
+    }
+
+
+    
 }
